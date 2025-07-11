@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+/apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-app
@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: rouatest21/my-simple-app:latest
+        image: roua21/roua-web:latest
+    
         ports:
         - containerPort: 3000
